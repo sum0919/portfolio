@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<title>portfolio :: Portfolio</title>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400;1,700;1,900&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap">
+<link rel="stylesheet" href="css/style.css">
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+<script src="js/main.js"></script>
+</head>
+
+<body>
+<div class="wrapper">
+	<header id="header">
+		<nav id="gnb">
+			<ul>
+				<li><a href="#start">HOME</a></li>
+				<li><a href="#page1">ABOUT</a></li>
+				<li><a href="#page2">SKILLS</a></li>
+				<li><a href="#page3">PORTFOLIO</a></li>
+				<li><a href="#page4">CONTACT</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div class="logo">
+		<h1><a href="">logo</a></h1>
+	</div>
+	<div class="tab">
+		<a href="">
+			<i class="accessbility">tab</i>
+			<span></span>
+			<span></span>
+			<span></span>
+		</a>
+	</div>
+	<div class="floating_menu">
+		<div class="gnb">
+			<ul>
+				<li><a href="#start">HOME</a></li>
+				<li><a href="#page1">ABOUT</a></li>
+				<li><a href="#page2">SKILLS</a></li>
+				<li><a href="#page3">PORTFOLIO</a></li>
+				<li><a href="#page4">CONTACT</a></li>
+			</ul>
+		</div>
+		<div class="bg"></div>
+	</div>
+	<div id="start">
+		<div class="keytext">
+			<span>Welcome to my Portfolio</span>
+			<h3>안녕하세요<br>웹퍼블리셔 임수민입니다.</h3>
+		</div>
+		<div class="btn">
+			<ul>
+				<li><a href="" class="left"><img src="images/prev.png" alt="prev"></a></li>
+				<li><a href="" class="right"><img src="images/next.png" alt="next"></a></li>
+			</ul>
+		</div>
+		<div class="media">
+			<video src="video/video1.mp4" alt="video" id="my_video"></video>
+		</div>
+		<div class="controller">
+			<ul>
+				<li><a href="#start">01 <span>HOME</span></a></li>
+				<li><a href="#page1">02 <span>ABOUT</span></a></li>
+				<li><a href="#page2">03 <span>SKILLS</span></a></li>
+				<li><a href="#page3">04 <span>PORTFOLIO</span></a></li>
+				<li><a href="#page4">05 <span>CONTACT</span></a></li>
+			</ul>
+		</div>
+		<div class="fix_con">
+			<p class="title">Contact</p>
+			<p>
+				Tel. 010-8896-1454<br>
+				E-mail. sum0919@gmail.com
+			</p>
+			<p>
+				<a href="">
+					<span>DOWNLOAD RESUME</span>
+					<img src="images/arr_w.png" alt="arr">
+				</a>
+			</p>
+		</div>
+		<div class="fix_copy">
+			<p>start from here</p>
+		</div>
+	</div>
+	<section id="page1">
+		<div class="inner clearfix">
+			<div class="text">
+				<div class="title">
+					<p>About me.</p>
+					<p>넘치는</p>
+					<p class="color"><b>아이디어</b></p><p>로</p>
+					<p><b>함께</b>발전하겠습니다.</p>
+				</div>
+				<div class="desc">
+					<div class="profile">
+						<p>
+							<span class="title">AGE</span>
+							<span>1996. 09. 19</span>
+						</p>
+						<p>
+							<span class="title">CONTACT</span>
+							<span>010-8896-1454<br>
+							sum0919@gmail.com</span>
+						</p>
+					</div>
+					<div class="skill">
+						<p>
+							<span class="title">SKILLS</span>
+							<span>
+								HTML5 DTD 문법 준수<br>
+								반응형 페이지 스타일 작성<br class="line">
+								모바일 페이지 스타일 작성<br>
+								Parallax 웹 페이지 구현<br class="line">
+							</span>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="photo">
+				<img src="images/sumin.jpg" alt="profile">
+			</div>
+		</div>
+	</section>
+	<section id="page2">
+		<div class="banner clearfix">
+			<ul>
+				<li>
+					<a href="">
+						<div class="default">
+							<img src="images/skill1.jpg" alt="skill1">
+							<div class="text">
+								<p class="title">STRUCTURE</p>
+								<p>html5 & css3</p>
+							</div>
+						</div>
+						<div class="hidden">
+							<img src="images/h_skill1.jpg" alt="h_skill1">
+							<div class="text">
+								<p class="title">HTML & CSS</p>
+								<p>
+									HTML5 DTD 문법을 준수<br>
+									웹 접근성을 높인 Semantic Page 작성<br>
+									CSS를 이용한 IR 기법<br>
+									반응형 웹 페이지, 모바일 페이지 작성
+								</p>
+							</div>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<div class="default">
+							<img src="images/skill2.jpg" alt="skill2">
+							<div class="text">
+								<p class="title">SCM</p>
+								<p>Github</p>
+							</div>
+						</div>
+						<div class="hidden">
+							<img src="images/h_skill2.jpg" alt="h_skill2">
+							<div class="text">
+								<p class="title">Github</p>
+								<p>GitHub를 이용한 Git 시스템 협업 가능</p>
+							</div>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<div class="default">
+							<img src="images/skill3.jpg" alt="skill3">
+							<div class="text">
+								<p class="title">INTERACRION</p>
+								<p>jQuery / JavaScript</p>
+							</div>
+						</div>
+						<div class="hidden">
+							<img src="images/h_skill3.jpg" alt="h_skill3">
+							<div class="text">
+								<p class="title">jQuery / JavaScript</p>
+								<p>
+									JavaScript 플러그인 활용<br>
+									Parallax 웹 페이지를 구현 가능<br>
+									JavaScript 라이브러리가 가능
+								</p>
+							</div>
+						</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</section>
+	<section id="page3">
+		<div class="inner">
+			<div class="project_label">
+				<h2>PORTFOLIO</h2>
+				<span>Wep Publishing</span>
+			</div>
+			<div id="project1" class="project">
+				<div class="title_area">
+					<div class="title">
+						<a href="">
+							<div class="ico"><i class="fas fa-play"></i></div>
+							<div class="txt">
+								<h3>WYLIE</h3>
+								<span>DISCOVERY WEB SITE</span>
+							</div>
+						</a>
+					</div>
+					<div class="content">
+						<ul>
+							<li>
+								<span class="label">#SITE</span>
+								<span>Wylie</span>
+							</li>
+							<li>
+								<span class="label">#Date</span>
+								<span>3Weeks</span>
+							</li>
+							<li>
+								<span class="label">#Type</span>
+								<span>Desktop / Mobile</span>
+							</li>
+							<li>
+								<span class="label">#CATEGORY</span>
+								<span>Agency</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="fixed_area"></div>
+				<div class="overview_area">
+					<div class="title">PROJECT OVERVIEW</div>
+					<div class="content">
+						<ul>
+							<li>
+								<span class="label">RENEWAL POINT</span>
+								<span>Brand Strategy, UI / UX</span>
+							</li>
+							<li>
+								<span class="label">STRUCTURE</span>
+								<span>HTML / CSS</span>
+							</li>
+							<li>
+								<span class="label">INTERACTIVE</span>
+								<span>jQuery</span>
+							</li>
+							<li>
+								<span class="label">SCM</span>
+								<span>Github</span>
+							</li>
+						</ul>
+					</div>
+					<div class="link">
+						<span>LINK</span>
+						<a href="https://sum0919.github.io/project1/" class="project1" target="portfolio">
+							사이트 바로가기
+						</a>
+					</div>
+				</div>
+				<div id="pc1" class="pc">
+					<div class="inner">
+						<div class="title">
+							<span>DESKTOP DESIGN</span>
+							<p>카테고리 분류가 복잡한 사이트의 특성을 고려하여<br>사용자가 다양한 페이지에 접근하기 쉽도록 레이아웃을 구성했습니다.</p>
+						</div>
+						<div class="photo">
+							<img src="images/pro2_pc.sm.png" alt="pc modal">
+						</div>
+					</div>
+				</div>
+				<div id="mo1" class="mobile">
+					<div class="inner">
+						<div class="title">
+							<span>MOBILE DESIGN</span>
+							<p>먼저 진행된 PC버전을 바탕으로 모바일에 최적화된 화면을 구성했습니다.<br>PC에 비해 직관적인 레이아웃을 선택하여 컨텐츠를 구성하였습니다.</p>
+						</div>
+						<div class="photo">
+							<ul>
+								<li><img src="images/sec_mo3.png" alt="mo1"></li>
+								<li><img src="images/pro1_mo2_sm_copy.png" alt="mo1"></li>
+								<li><img src="images/sec_mo1.png" alt="mo1"></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="project2" class="project">
+				<div class="title_area">
+					<div class="title">
+						<a href="">
+							<div class="ico"><i class="fas fa-play"></i></div>
+							<div class="txt">
+								<h3>한국 도자기</h3>
+								<span>DISCOVERY WEB SITE</span>
+							</div>
+						</a>
+					</div>
+					<div class="content">
+						<ul>
+							<li>
+								<span class="label">#SITE</span>
+								<span><span class="fontup">한</span>국 도자기</span>
+							</li>
+							<li>
+								<span class="label">#Date</span>
+								<span>3Weeks</span>
+							</li>
+							<li>
+								<span class="label">#Type</span>
+								<span>Responsive</span>
+							</li>
+							<li>
+								<span class="label">#CATEGORY</span>
+								<span>Culture</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="fixed_area"></div>
+				<div class="overview_area">
+					<div class="title">PROJECT OVERVIEW</div>
+					<div class="content">
+						<ul>
+							<li>
+								<span class="label">RENEWAL POINT</span>
+								<span>Brand Strategy, UI / UX</span>
+							</li>
+							<li>
+								<span class="label">STRUCTURE</span>
+								<span>HTML / CSS</span>
+							</li>
+							<li>
+								<span class="label">INTERACTIVE</span>
+								<span>jQuery</span>
+							</li>
+							<li>
+								<span class="label">SCM</span>
+								<span>Github</span>
+							</li>
+						</ul>
+					</div>
+					<div class="link">
+						<span>LINK</span>
+						<a href="https://sum0919.github.io/project4/" class="project2" target="portfolio">
+							사이트 바로가기
+						</a>
+					</div>
+				</div>
+				<div id="pc1" class="pc">
+					<div class="inner">
+						<div class="title">
+							<span>DESKTOP DESIGN</span>
+							<p>사이트 내 모든 페이지에 접근할 수 있도록 메뉴를 구성하였으며<br>다양한 디바이스에서 웹을 이용할 수 있도록 반응형으로 사이트를 제작하였습니다.</p>
+						</div>
+						<div class="photo">
+							<img src="images/pro2_pc.png" alt="pc modal">
+						</div>
+					</div>
+				</div>
+				<div id="mo1" class="mobile">
+					<div class="inner">
+						<div class="title">
+							<span>MOBILE DESIGN</span>
+							<p>먼저 진행된 PC버전을 바탕으로 모바일에 최적화된 화면을 구성했습니다.<br>모바일에서도 PC와 동일한 경험으로 제공하며 각 메뉴로의 접근이 용이하게 설계했습니다.</p>
+						</div>
+						<div class="photo">
+							<ul>
+								<li><img src="images/sec2_mo.png" alt="mo1"></li>
+								<li><img src="images/sec2_mo2.png" alt="mo2"></li>
+								<li><img src="images/sec2_mo3.png" alt="mo3"></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="project3" class="project">
+				<div class="title_area">
+					<div class="title">
+						<a href="">
+							<div class="ico"><i class="fas fa-play"></i></div>
+							<div class="txt">
+								<h3>ILROOM</h3>
+								<span>DISCOVERY WEB SITE</span>
+							</div>
+						</a>
+					</div>
+					<div class="content">
+						<ul>
+							<li>
+								<span class="label">#SITE</span>
+								<span>ILROOM</span>
+							</li>
+							<li>
+								<span class="label">#Date</span>
+								<span>3Weeks</span>
+							</li>
+							<li>
+								<span class="label">#Type</span>
+								<span>jQuery</span>
+							</li>
+							<li>
+								<span class="label">#CATEGORY</span>
+								<span>Shop</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="fixed_area"></div>
+				<div class="overview_area">
+					<div class="title">PROJECT OVERVIEW</div>
+					<div class="content">
+						<ul>
+							<li>
+								<span class="label">RENEWAL POINT</span>
+								<span>Brand Strategy, UI / UX</span>
+							</li>
+							<li>
+								<span class="label">STRUCTURE</span>
+								<span>HTML / CSS</span>
+							</li>
+							<li>
+								<span class="label">INTERACTIVE</span>
+								<span>jQuery</span>
+							</li>
+							<li>
+								<span class="label">SCM</span>
+								<span>Github</span>
+							</li>
+						</ul>
+					</div>
+					<div class="link">
+						<span>LINK</span>
+						<a href="https://sum0919.github.io/project5/" class="project2" target="portfolio">
+							사이트 바로가기
+						</a>
+					</div>
+				</div>
+				<div id="pc1" class="pc">
+					<div class="inner">
+						<div class="title">
+							<span>DESKTOP DESIGN</span>
+							<p>사이트 내 모든 페이지에 접근할 수 있도록 메뉴를 구성하였으며<br>다양한 디바이스에서 웹을 이용할 수 있도록 반응형으로 사이트를 제작하였습니다.</p>
+						</div>
+						<div class="photo">
+							<img src="images/pro3_pc.png" alt="pc modal">
+						</div>
+					</div>
+				</div>
+				<div id="mo1" class="mobile">
+					<div class="inner">
+						<div class="title">
+							<span>MOBILE DESIGN</span>
+							<p>먼저 진행된 PC버전을 바탕으로 모바일에 최적화된 화면을 구성했습니다.<br>모바일에서도 PC와 동일한 경험으로 제공하며 각 메뉴로의 접근이 용이하게 설계했습니다.</p>
+						</div>
+						<div class="photo">
+							<ul>
+								<li><img src="images/pro3_mo.png" alt="mo1"></li>
+								<li><img src="images/pro3_mo3.png" alt="mo2"></li>
+								<li><img src="images/pro3_mo2.png" alt="mo3"></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="page4">
+		<p>CONTACT</p>
+		<span>Tel. 010-8896-1454</span>
+		<span>E-mail. sum0919@gmail.com</span>
+	</section>
+</div>
+</body>
+</html>
